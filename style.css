@@ -11,6 +11,8 @@ body {
     max-width: 90px;
 }
 
+
+/* entéte */
 .entete {
     display: flex;
     flex-direction: row;
@@ -27,6 +29,7 @@ body {
     
 }
 
+/* navbar */
 .navbar {
     width: 100%;
     
@@ -53,6 +56,22 @@ body {
     color: blue;
 }
 
+.navbar ul li {
+    position: relative;
+    padding: 0 10px;
+}
+
+.navbar ul li:not(:first-child)::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 25%;
+    height: 50%;
+    width: 1px;
+    background-color: gray; /* Divider color */
+}
+
+/* hero */
 .hero-section {
     height: 100vh;
     background-image: url(workers.jpg); 
@@ -75,6 +94,7 @@ body {
     font-weight: bold;
   }
 
+  /* specialités */
   h1.title {
     text-align: center;
     margin-top: 40px;
