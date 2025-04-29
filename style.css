@@ -381,7 +381,10 @@ padding: 10px;
  .submitbtn2:hover {
     background-color: #0056b3;
   }
-
+.map-container {
+  box-shadow: 0 4px 8px rgba(0, 0, 255, 0.1);
+  border: 1px solid #cce0ff;
+}
 
   /* Podiums/ Resultats */
   h2 {
