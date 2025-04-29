@@ -295,6 +295,11 @@ body {
     .specialites {
         grid-template-columns: 1fr 1fr;
     }
+
+    .presentation-content {
+      display: flex;
+      flex-direction: column;
+    }
 }
 
 @media (max-width: 480px) {
