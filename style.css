@@ -83,7 +83,7 @@ body {
   user-select: none;
 }
 
-/* Responsive styles */
+/* Responsive navbar styles */
 @media (max-width: 768px) {
   .menu-toggle {
       display: block;
@@ -216,8 +216,8 @@ body {
   
   .image-wrapper {
     position: relative;
-    width: 800px;
-    height: 423px;
+   /* width: 800px;
+    height: 423px; */
     overflow: hidden;
     border: 6px solid #120ed6;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
