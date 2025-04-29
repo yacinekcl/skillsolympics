@@ -394,6 +394,14 @@ form {
     align-items: center;
 }
 
+@media (max-width: 768px) {
+
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .form-container {
   margin-left: 10px;
 }
