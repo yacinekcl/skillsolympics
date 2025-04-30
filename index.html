@@ -11,11 +11,13 @@
 </head>
 <body>
 
+  <button id="scrollToTopBtn" onclick="scrollToTop()"><i style="color: rgb(255, 255, 255);" class="fas fa-arrow-up"></i></button>
+
     <!-- entéte -->
 
     <div class="entete">
         <div class="logo"> <img src="skills_olympic-logo-boumerdes.png" alt=""></div>
-        <div class="entete-header"> <h1>Skills Olympics 
+        <div class="entete-header"> <h1 style="color: black;">Skills Olympics 
             Boumerdes 2025</h1></div>
 
     </div>
@@ -32,7 +34,7 @@
         <!-- <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg 
         text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
         A Savoir Plus</button> -->
-        <button type="button" class="morebutton" onclick="scrollToMenu(presentation)">A Savoir Plus</button>
+        <button type="button" class="morebutton" onclick="scrollToMenu(presentation)">A Savoir Plus <i class="fa-solid fa-arrow-down"></i></button>
         
       </div>
 <!-- navbar -->
@@ -98,9 +100,58 @@
 
 
 <!-- Specialités -->
-<h1 id="specialites" class="title">Spécialités</h1>
+<h1 id="specialites" class="title" style="color: black;" >Les Spécialités</h1>
 
-<div class="specialites">
+ <!-- specialités cards-->
+
+ <div class="specialites">
+  <div class="specialites-card">
+      <img src="img/specialite Technologie de fabrication.jpg" alt="Ingénierie">
+      <a href="specialites.html">Technologie de fabrication et d'ingénierie</a>
+      <p>Conception et production industrielle à la pointe de la technologie.</p>
+  </div>
+  <div class="specialites-card">
+      <img src="img/specialite energies renouvlables.jpg" alt="Énergies Renouvelables">
+      <a href="specialites.html">Énergies Renouvelables</a>
+      <p>Solutions vertes pour un avenir énergétique durable.</p>
+  </div>
+  <div class="specialites-card">
+      <img src="img/specialite Technologie de l'information et de la communication.jpg" alt="TIC">
+      <a href="specialites.html">Technologie de l'information et de la communication</a>
+      <p>Technologies numériques, développement logiciel et cybersécurité.</p>
+  </div>
+  <div class="specialites-card">
+      <img src="img/specialite-construction-batiments.jpg" alt="Construction">
+      <a href="specialites.html">Technologie de la construction et du bâtiment</a>
+      <p>Techniques modernes de construction et gestion de projets.</p>
+  </div>
+  <div class="specialites-card">
+      <img src="img/specialite Transport et logistique.jpg" alt="Transport">
+      <a href="specialites.html">Transport et logistique</a>
+      <p>Optimisation des flux de transport et gestion de la chaîne logistique.</p>
+  </div>
+  <div class="specialites-card">
+      <img src="img/specialite Arts créatifs et mode.jpg" alt="Arts créatifs">
+      <a href="specialites.html">Arts créatifs et mode</a>
+      <p>Créativité, design, stylisme et expression artistique.</p>
+  </div>
+  <div class="specialites-card">
+      <img src="img/specialite Services.png" alt="Services">
+      <a href="specialites.html">Services</a>
+      <p>Services sociaux et services à la personne.</p>
+  </div>
+</div>
+
+<!-- Inscriver -->
+
+<h1 id="inscriver" class="title" style="color: black;" >Inscrivez Maintenant!</h1>
+
+<div class="center-container">
+<a class="insriverBtn" href="inscription.html">Inscriver <i class="fa-solid fa-arrow-right"></i></a>
+</div>
+
+
+<!-- <div class="specialites">
     <div class="specialites-card"><a href="#">Technologie de fabrication et d'ingénierie</a></div>
     <div class="specialites-card"><a href="#">Énergies Renouvelables</a></div>
     <div class="specialites-card"><a href="#">Technologie de l'information et de la communication</a></div>
@@ -108,7 +159,7 @@
     <div class="specialites-card"><a href="#">Transport et logistique</a></div>
     <div class="specialites-card"><a href="#">Arts créatifs et mode</a></div>
     <div class="specialites-card"><a href="#">Services</a></div>
-</div>
+</div> -->
 
 <!-- footer -->
 
