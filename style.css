@@ -117,7 +117,7 @@ body {
 /* hero */
 .hero-section {
     height: 100vh;
-    background-image: url(workers.jpg); 
+    background-image: url(workers-gradient2.png); 
     background-size: cover;
     padding-top: 1%;
 }
@@ -141,6 +141,7 @@ body {
     padding: 8px;
     background-color: #0056b3;
     border-radius: 5px;
+    cursor: pointer;
   }
 
   .morebutton:hover {
@@ -328,11 +329,15 @@ form {
     font-weight: bold;
   }
 
+  #specialite, #numero, #email, #age, #prenom, #nom {
+    width: 100%;
+  }
+
   input[type="text"],
   input[type="number"],
   input[type="email"],
   select {
-    width: 100%;
+ /*   width: 100%; */
     padding: 10px;
     margin-top: 5px;
     border: 1px solid #99ccff;
@@ -461,7 +466,7 @@ form {
     justify-content: center;
     align-items: flex-end;
     height: 250px;
-    gap: 20px;
+    gap: 10px;
     margin-bottom: 10px;
 
   }
@@ -505,4 +510,26 @@ form {
     width: 50%;
     margin: 40px auto;
   }
+#input1, #input2, #input3 {
+  /*   width: 100%; */
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #99ccff;
+  border-radius: 4px;
+  background-color: #f9fcff;
+  color: #003366;
+}
 
+  .addBtn {
+    padding: 8px;
+    background-color: #0056b3;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  .addBtn:hover {
+    background-color: #1573d6;
+
+  }
+
+  
