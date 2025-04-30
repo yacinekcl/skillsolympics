@@ -271,7 +271,11 @@ body {
     text-align: center;
     margin-top: 40px;
     font-size: 32px;
+<<<<<<< HEAD
     color: #ffffff; 
+=======
+    color: #0a1b32; 
+>>>>>>> 509e189feb9b68849423dd2d2b347aa6710639cb
     font-weight: bold;
 }
 
@@ -594,3 +598,13 @@ form {
 
   }
 
+<<<<<<< HEAD
+=======
+/* .header {
+    display: flex;
+    background-image: url(stade.jpg);
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+  } */
+>>>>>>> 509e189feb9b68849423dd2d2b347aa6710639cb
