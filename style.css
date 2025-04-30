@@ -143,6 +143,9 @@ body {
   .navbar ul li:not(:first-child)::before {
       display: none;
   }
+    .navbar ul li a {
+        color: black;
+    }
 }
 
 /* hero */
