@@ -154,6 +154,13 @@ body {
     padding-top: 1%;
 }
 
+@media (max-width: 768px) {
+    .hero-section {
+        height: 80vh;
+    }
+
+}
+
 .content-overlay {
     position: absolute;
     top: 50%;
