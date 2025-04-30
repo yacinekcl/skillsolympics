@@ -239,7 +239,7 @@ body {
     text-align: center;
     margin-top: 40px;
     font-size: 32px;
-    color: #0a1b32;
+    color: #0a1b32; 
     font-weight: bold;
 }
 
@@ -444,6 +444,9 @@ form {
     margin-left: 20px;
     
 }
+.divider2 {
+  width: 80%;
+}
 
 
 
@@ -472,7 +475,7 @@ form {
   }
 
   .step {
-    width: 120px;
+    width: 200px;
     background: #3498db;
     color: white;
     display: flex;
@@ -526,10 +529,17 @@ form {
     border-radius: 5px;
     color: white;
     cursor: pointer;
+    margin-top: 10px;
   }
   .addBtn:hover {
     background-color: #1573d6;
 
   }
 
-  
+/* .header {
+    display: flex;
+    background-image: url(stade.jpg);
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+  } */
