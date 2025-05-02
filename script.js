@@ -107,6 +107,8 @@ if (form1) {
 }
 
 //form validation contact
+const form2 = document.getElementById('form2');
+if (form2) {
 document.getElementById('form2').addEventListener('submit', function(e) {
   const name = document.getElementById('name').value.trim();
   const email = document.getElementById('email2').value.trim();
@@ -134,3 +136,4 @@ document.getElementById('form2').addEventListener('submit', function(e) {
 
   // If all validations pass → form submits
 });
+}

@@ -11,6 +11,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+  <button id="scrollToTopBtn" onclick="scrollToTop()"><i style="color: rgb(255, 255, 255);" class="fas fa-arrow-up"></i></button>
 
   <!-- header -->
    <div class="header">
@@ -49,10 +50,10 @@
      <div class="form-container">
       <form id="form2" action="https://formspree.io/f/manoqjlk" method="POST">
         <label for="name">Nom</label>
-        <input type="text" name="nom" placeholder="Votre Nom"> <br>
+        <input id="name" type="text" name="nom" placeholder="Votre Nom"> <br>
 
         <label for="email">E-mail</label>
-    <input type="email" name="email" id="email" placeholder="Votre Email"> <br>
+    <input type="email" name="email" id="email2" placeholder="Votre Email"> <br>
 
     <label for="message">Message</label>
     <textarea name="message" id="message" placeholder="Votre Message"></textarea>

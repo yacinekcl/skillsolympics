@@ -368,7 +368,7 @@ body {
     }
 }
 
-.insriverBtn {
+.inscriverBtn {
   display: inline-block;
   padding: 8px;
   background-color: #0056b3;
@@ -381,7 +381,7 @@ body {
   text-decoration: none; /* remove underline */
 }
 
-.insriverBtn:hover {
+.inscriverBtn:hover {
   background-color: #1a7be2;
 }
 
@@ -618,4 +618,9 @@ form {
     background-color: #1573d6;
 
   }
+
+  /* Footer 
+  .bg-gray-900.pt-12.pb-6.px-10.tracking-wide {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(stade.jpg);
+  }*/
 
