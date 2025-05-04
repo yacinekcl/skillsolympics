@@ -2,6 +2,7 @@ body {
     padding: 0%;
     margin: 0%;
     background-color: #f4f4f4;
+   /* background-image: url(6166980_17545.jpg); */
    
 }
 
@@ -436,6 +437,11 @@ body {
     text-align: center;
     transition: transform 0.2s, box-shadow 0.2s;
     
+    
+}
+
+.specialites-card {
+  color: white;
 }
 
 .specialites-card a {
@@ -464,7 +470,7 @@ body {
 
 
 .specialites-card p {
-    color: #555;
+    color: #ffffff;
     font-size: 14px;
 }
 
