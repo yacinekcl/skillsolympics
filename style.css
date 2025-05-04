@@ -509,14 +509,14 @@ body {
 }
 
 .inscriver-container {
-  height: 30vh;
+  height: 20vh;
   margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url(8290.jpg);
-  background-position: center;
+  background-image: url(6166980_17545.jpg);
+  /* background-position: center; */
 }
 
 /* form inscription */
