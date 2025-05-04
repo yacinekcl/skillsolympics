@@ -14,6 +14,27 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById('presentation').scrollIntoView({ behavior: 'smooth' });
   }
 
+  // youtube popup 
+  $(document).ready(function(){
+  
+    $('.popup-btn').on('click', function(){
+      $('.video-popup').fadeIn('slow');
+      return false;
+    });
+    
+    $('.popup-bg').on('click', function(){
+      $('.video-popup').slideUp('slow');
+      return false;
+    });
+    
+     $('.close-btn').on('click', function(){
+       $('.video-popup').fadeOut('slow');
+        return false;
+     });
+    
+  });
+
+
   // podium input
   function updateNames(section) {
     const input1 = document.getElementById(`input1-${section}`).value.trim();

@@ -203,12 +203,100 @@ body {
     background-color: #0c71dd;
 
   }
+ 
+  /* youtube embed popup */
+  .video {
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    display: block;
+    border: none;
+  }
+
+  .popup-btn {
+  position: absolute;
+  top: 50%;
+    right: 20%; 
+    transform: translateY(-50%);
+    background-color: red;
+    width: 100px;
+    height: 50px;
+    display: block;
+    margin: 50px auto;
+    cursor: pointer; 
+    border: 2px solid black;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    animation: jump 0.6s infinite ease-in-out;
+
+  }
+  @keyframes jump {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+ .close-btn {
+    width: 100px;
+    height: 50px;
+    display: block;
+    margin: 50px auto;
+    cursor: pointer; 
+    border: 2px solid black;
+    background-color: white;
+  }
+  .popup-btn:hover {
+    color: white;
+    background-color: rgb(255, 63, 63);
+  }
+  .video-popup {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    box-shadow: 10px 10px 10px 10px black;
+  }
+  .popup-bg {
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+  }
+  .popup-content {
+    background: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: auto;
+  }
+
+  @media (max-width:786px) {
+    .popup-content {
+      width: auto;
+      height: auto;
+    }
+  }
+  
+  .popup-title {
+    padding: 30px;
+    margin: 0 auto;
+    color: red;
+    text-transform: uppercase;
+  }
+  
 
   /* presentation */
   .presentation {
     padding: 40px;
     background-color: #fff;
     font-family: 'Arial', sans-serif;
+    /* height: 100vh; */
   }
   
   .presentation-content {
@@ -248,6 +336,7 @@ body {
     display: flex;
     gap: 40px;
     margin-top: 20px;
+    justify-content: flex-start;
   }
   
   .presentation-info h1 {
@@ -275,9 +364,9 @@ body {
    /* width: 800px;
     height: 423px; */
     overflow: hidden;
-    border: 6px solid #120ed6;
+    border: 3px solid #120ed6;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-    border-radius: 0; 
+    border-radius: 5px; 
   }
   
   .image-wrapper img {
@@ -287,7 +376,35 @@ body {
    object-fit: contain;
   }
   
-  
+  /* info cards */
+  .info-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+  }
+
+  .info-card {
+    background-color: #ffffff;
+    /* border: 1px solid #ddd; */
+    border: 2px solid #cce0ff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .info-card h1 {
+    margin-top: 20px;
+  }
+
+  .info-title {
+    font-weight: bold;
+  }
 
   /* specialités */
   h1.title {
@@ -360,11 +477,17 @@ body {
       display: flex;
       flex-direction: column;
     }
+    .info-cards {
+      grid-template-columns: 1fr 1fr;
+    }
 }
 
 @media (max-width: 480px) {
     .specialites {
         grid-template-columns: 1fr;
+    }
+    .info-cards {
+      grid-template-columns: 1fr;
     }
 }
 
@@ -385,11 +508,15 @@ body {
   background-color: #1a7be2;
 }
 
-.center-container {
+.inscriver-container {
+  height: 30vh;
   margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  background-image: url(8290.jpg);
+  background-position: center;
 }
 
 /* form inscription */
