@@ -279,7 +279,7 @@ body {
 
   @media (max-width:786px) {
     .popup-content {
-      width: auto;
+      width: 90%;
       height: auto;
     }
   }
